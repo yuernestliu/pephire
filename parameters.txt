@@ -1,0 +1,52 @@
+# Parameters for the peptide docking and selection script
+# Each parameter is defined in the format: key = value
+
+
+
+# Initial peptide pool - a list of peptide sequences
+# This parameter used in the associated paper: pipPool0 = ['IIRNIARHLAQVGDSMDRSIP', 'PEIWIAQELRRIGDEFNAYYA', 'LEVECATQLRRFGDKLNFRQK', 'WAREIGAQLRRMADDLNAQYE', 'STKKLSECLKRIGDELDSNME', 'TSRKALETLRRVGDGVQRNHE', 'MTQEVGQLLQDMGDDVYQQYR', 'WVREIAAGLRRAADDVNAQVE']
+# The following parameter is for testing:
+pipPool0 = ['IIRNIARHLAQVGDSMDRSIP', 'PEIWIAQELRRIGDEFNAYYA']
+
+
+# List of pdb files used for docking
+# This parameter used in the associated paper: pdb_files = ['2PQK.pdb', '3KJ2.pdb', '5UUM.pdb', '6UA3.pdb', '6VBX.pdb']
+# The following parameter is for testing:
+pdb_files = ['2PQK.pdb', '3KJ2.pdb']
+
+
+# Number of new peptides generated in each iteration
+# This parameter used in the associated paper: N_newPiptide = 10000
+# The following parameter is for testing:
+N_newPiptide = 100
+
+
+# Number of peptides selected from the helixpool for docking in each iteration
+# This parameter used in the associated paper: N_for_docking = 10
+# The following parameter is for testing:
+N_for_docking = 2
+
+
+# Number of top-scoring peptides to put back into the original pool after docking
+# This parameter used in the associated paper: N_putBack = 1
+# The following parameter is for testing:
+N_putBack = 1
+
+
+# Total number of iterations for the peptide generation and docking process
+# This parameter used in the associated paper:N_iteration = 3
+# The following parameter is for testing:
+N_iteration = 2
+
+
+# Score threshold for selecting peptides (selects peptides with scores below this threshold)
+# This parameter used in the associated paper: threshold = -290
+# The following parameter is for testing:
+threshold = -200
+
+
+# Maximum allowed size of the ladder element, calculated as 25% of the length of the first peptide in the initial pool
+# This parameter used in the associated paper: limitSize = 0.25
+# The following parameter is for testing:
+limitSize = 0.25
+
