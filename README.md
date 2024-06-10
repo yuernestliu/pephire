@@ -117,6 +117,7 @@ Once you have successfully set up HDOCK, along with the other dependencies, you'
 ## Files and Folders
 After cloning the PepHiRe repository and installing all dependencies, you'll find the project organized into several folders and files, each with a specific purpose:
 - Folders:
+  - `DataForThePaper_MD/`: Contains input file and output trajectories of MD simulation, initial configurations, topologies, parameters, simulation conditions, and respective trajectories.
   - `Data_input/`: Contains essential pdb files for peptide docking, including various conformations of MCL-1 protein.
   - `Data_output/`: Intended for storing the output data.
     - `-290.csv`: Lists peptides with effective binding to MCL-1 protein (docking scores < -290), serving as a reference (associated with the paper).
