@@ -1,6 +1,10 @@
 # *PepHiRe*: Peptide Hierarchical Reconstructor
 
+### Update: The code for calculating Ladderpath has been upgraded, see https://github.com/yuernestliu/lppack
+
+
 ## Overview
+
 *PepHiRe* (Peptide Hierarchical Reconstructor) is an innovative computational tool developed to design peptide inhibitors with high specificity and affinity for target proteins. By harnessing the power of the Ladderpath Theory, PepHiRe offers a systematic approach for the de novo generation and screening of peptide sequences that can potentially disrupt protein-protein interactions, which are pivotal in numerous biological processes and diseases. Refer to the associated paper for more details.
 
 ## System Requirements and Prerequisites
